@@ -19,5 +19,7 @@ It also includes a Discord webhook integration to send the APOD to a Discord cha
 
 > [!WARNING]  
 > This script only works on MacOS.
+> 
 > You can probably make it work on Linux by changing the `osascript` command to `gsettings` or `feh` or whatever you use to set your wallpaper.
+> 
 > I don't know how to make it work on Windows. 💀
