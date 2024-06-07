@@ -24,9 +24,11 @@ It also includes a Discord webhook integration to send the APOD to a Discord cha
 3. Install the dependencies with `bun install`.
 4. Run the script with `bun run src/index.ts`.
 
-## Automation
+## Automation (macOS)
 
-If you want to run the script automatically when a new APOD is available, you can use a LaunchAgent.
+If you're using a UNIX machine, you can probably use a cron job. However, it doesn't work when your machine is asleep.
+
+This is where LaunchAgents are useful. They have similar functionality, but they also work when your macOS machine is asleep.
 
 1. Create a `.plist` file in `~/Library/LaunchAgents` with the following content:
 
